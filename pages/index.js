@@ -4,7 +4,7 @@ function home(){
         <h2>Você é minha musica favorita</h2>
         <p>- Felipe, Seu amor</p>
         <p>Aceita namorar comigo?</p>
-        <button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button><button onClick={sim}>sim</button>
+        <button onClick={sim}>sim</button>
     </div> 
 }
 
