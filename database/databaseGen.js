@@ -10,7 +10,7 @@ db.serialize(() => {
     stmt.run("felipe Molina Gonçalves", "felipemolina.contato@gmail.com", "teste123");
     stmt.finalize();
 
-    const stmt2 = db.prepare('INSERT INTO Books VALUES (?, ?, ?,?,?,?)');
+    const stmt2 = db.prepare('INSERT INTO Books VALUES (?, ?, ?,?,?,?, ?)');
     stmt2.run(1, "Cem Anos de Solidão", "Gabriel García Márquez", "Uma saga familiar mágica e surreal em uma cidade fictícia na América Latina.", "Livro usado, em bom estado geral.", 14.99, "");
     stmt2.run(2, "Harry Potter e a Pedra Filosofal", "J.K. Rowling", "A história de um jovem bruxo que descobre seu destino no mundo mágico.", "Livro usado, com algumas marcas de leitura.", 9.99, "");
     stmt2.run(3, "A Menina que Roubava Livros", "Markus Zusak", "A história de Liesel Meminger, uma jovem que encontra consolo nos livros durante a Segunda Guerra Mundial.", "Livro usado, em boas condições.", 10.99, "");
